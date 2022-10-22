@@ -43,7 +43,19 @@ body {
     background-color:#15191C ;
     width: 75vw;
     height: 100vh;
+    position: absolute;
+    transition: 0.5s;
+    left: -100vw;
+    
+    
 }
+
+.menu-lateral--ativo {
+    left: 0;
+    transition: .5s;
+}
+
+
 .menu-lateral__logo{
     align-self: center;
     width: 118px;
@@ -58,7 +70,7 @@ body {
     display: flex;
     align-items: center;
 }
-.menu-latral__link--ativo:hover {
+.menu-lateral__link--ativo:hover {
     color: white;
     padding-left: 56px;
     border-left: 8px solid white;
