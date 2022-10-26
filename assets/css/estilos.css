@@ -134,7 +134,7 @@ body {
 
 
 
-.cartao--destaque {
+.cartao__destaque {
     margin-bottom: 16px;
 }
 
@@ -146,7 +146,7 @@ body {
 
 
 }
-.cartao__destaque {
+.cartao--destaque {
     grid-column: span 2;
 }
 
